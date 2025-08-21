@@ -1,0 +1,24 @@
+.sidebarMain {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  // chakra ui: purpule.600
+  background-color: #9333ea;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem; 
+
+  // адаптация
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+}
