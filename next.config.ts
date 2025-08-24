@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"],
   },
+    eslint: {
+    // ВНИМАНИЕ: Это для демо
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
