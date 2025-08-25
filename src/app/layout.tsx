@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Void",
   description: "Void messanger",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
